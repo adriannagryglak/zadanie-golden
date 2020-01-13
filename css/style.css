@@ -68,6 +68,9 @@ h5 {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: bold;
+  max-width: 291px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h6 {
@@ -75,13 +78,6 @@ h6 {
   font-size: 14px;
   color: #777777;
   font-weight: normal;
-}
-
-h7 {
-  font-family: 'droid_serifitalic';
-  font-style: italic;
-  font-size: 14px;
-  color: #777777;
 }
 
 /* Header */
@@ -161,34 +157,43 @@ button {
 }
 
 /*Services*/
-.icon {
-  padding: 20px;
-  border: 1px solid #ffcc33;
-}
-
 /*Portfolio*/
 .portfolio {
   background-color: #f7f7f7;
 }
 
-.first-row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.port {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.box {
+.port div {
+  position: relative;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.port div h5 {
   background-color: white;
-  padding-bottom: 30px;
-  margin-bottom: 50px;
+  width: 100%;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0 auto;
+  padding: 30px 0 0 0;
 }
 
-.box h5 {
-  margin: 30px 0 10px 0;
+.port div p {
+  font-family: 'droid_serifitalic';
+  font-style: italic;
+  font-size: 14px;
+  color: #777777;
+  width: 100%;
+  max-width: 291px;
+  padding: 5px 0 20px 0;
+  margin: 0 auto 50px auto;
+  background-color: white;
 }
+
+/*Footer*/
 /*# sourceMappingURL=style.css.map */
