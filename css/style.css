@@ -1,0 +1,160 @@
+/* Fonts */
+@font-face {
+  font-family: 'Wisdom Script Regular';
+  src: url("fonts/Wisdom Script AJ.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'droid_serifitalic';
+  src: url("fonts/DroidSerif-Italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Variables*/
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+section {
+  padding: 120px 0;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+h4 {
+  font-family: 'droid_serifitalic';
+  font-size: 16px;
+  color: #777777;
+  margin-bottom: 70px;
+}
+
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  font-family: 'droid_serifitalic';
+  margin: 0;
+  color: white;
+}
+
+h2 {
+  font-size: 75px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin: 10px 0 60px 0;
+  color: white;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h6 {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  color: #777777;
+  font-weight: normal;
+}
+
+/* Header */
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+  font-size: 14px;
+  color: white;
+}
+
+.logo {
+  font-family: 'Wisdom Script Regular';
+  font-size: 26px;
+}
+
+.navigation {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 55px 230px 0 230px;
+  background-color: transparent;
+  -ms-flex-align: baseline;
+      align-items: baseline;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://i.postimg.cc/qgfdyp49/Background-Image.jpg);
+  position: relative;
+  height: 700px;
+  background-size: cover;
+  max-width: 1400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.home {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 160px;
+  position: absolute;
+  top: 270px;
+  transform: translateX(-50%, -50%);
+}
+
+button {
+  height: 65px;
+  width: 240px;
+  background-color: #ffcc33;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 18px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  margin: 0;
+}
+
+/*Services*/
+.icon {
+  padding: 20px;
+  border: 1px solid #ffcc33;
+}
+/*# sourceMappingURL=style.css.map */
