@@ -112,11 +112,11 @@ nav a {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 55px 230px 0 230px;
+  margin: 0 230px 0 230px;
   background-color: transparent;
   -ms-flex-align: baseline;
       align-items: baseline;
-  margin: 0;
+  padding-top: 55px;
 }
 
 .container-fluid {
@@ -178,18 +178,8 @@ button {
       justify-content: space-around;
 }
 
-.port div {
-  position: relative;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
-
-.port div .port img {
-  position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  max-width: 291px;
+.port div img {
+  max-width: 100%;
 }
 
 .port div h5 {
@@ -276,7 +266,9 @@ button {
 /*Media*/
 @media (max-width: 992px) {
   .navigation {
-    padding: 50px auto 0 auto;
+    margin: 0 20px 0 20px;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 
